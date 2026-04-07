@@ -1,38 +1,139 @@
 html, body {
     margin: 0;
 }
+
 body {
     background-color: #f1f1f1;
     display: flex;
     justify-content: center;
+    font-family: 'Fredoka', sans-serif;
 }
 
 .wrapper {
     width: 1200px;
     display: flex;
     margin: 0 auto;
-    background-color: aquamarine;
+    background-color: #FFFFFF;
 }
+
 .main {
     display: flex;
     flex-flow: column;
     width: 85%;
 }
+
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: #A8D5BA;
     padding: 10px 20px 0px;
 }
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #A8D5BA;
+    width: 200px;
+    border-radius: 8px;
+}
+
+.menu li {
+    padding: 12px;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #1B3A3A;
+    display: block;
+}
+
+.menu li:hover {
+    background-color: #CDEAE5;
+}
+
 .header {
-    background-color: rgb(5, 108, 108);
+    background-color: #CDEAE5;
     min-height: 150px;
 }
+
 .content {
-    background-color: white;
+    background-color: #FAFDFC;
     min-height: 300px;
     padding: 20px;
 }
+
+.content h1 {
+    color: #2E7D6F;
+    font-size: 28px;
+}
+
+.content #main-title {
+    color: #2E7D6F;
+}
+
+.content #main-content {
+    color: #1B3A3A;
+}
+
+.services-list {
+    list-style-type: disc;
+    padding-left: 25px;
+    color: #4a4a4a;
+    font-size: 16px;
+    margin-bottom: 8px; 
+}
+
+.services-list li {
+    margin-bottom: 8px;
+}
+
 .footer {
-    background-color: rgb(99, 56, 240);
-    min-height: 150px;
+    background-color: #88BFB5;
+    min-height: 80px;
+    padding: 20px;
+    text-align: center;
+}
+.hours-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #FAFDFC;
+    border-radius: 10px;
+    overflow: hidden;
+    font-family: 'Fredoka', sans-serif;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.hours-table th, .hours-table td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #CDEAE5;
+}
+
+.hours-table th {
+    background-color: #A8D5BA;
+    color: #1B3A3A;
+    font-size: 16px;
+}
+
+.hours-table td {
+    color: #4A4A4A;
+    font-size: 15px;
+}
+
+.hours-table tr:nth-child(even) {
+    background-color: #E8F4EE;
+}
+
+.hours-table tr:hover {
+    background-color: #CDEAE5;
+    transition: background-color 0.3s ease;
+}
+
+.hours-table caption {
+    caption-side: top;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2E7D6F;
 }
