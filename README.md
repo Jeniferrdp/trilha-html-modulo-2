@@ -1,78 +1,86 @@
-<<<<<<< HEAD
-# Trilha HTML - Dio.me
-## Módulo 02 - HTML I - Conceitos Básicos
+# PetsandVets 🐾
 
-Este desafio tem como objetivo, criar um site "quase" completo, com tudo o que vimos neste módulo. Os temas que deverão ser abordados são:
-- Formulários
-- Estruturação e formatação de texto
-- Mídias
-- Tabelas
+## Project Description
+PetsandVets is a complete website for a **veterinary clinic**, created as part of the Module 2 Challenge in the HTML track at Digital Innovation One. The website uses all the concepts learned in this module, including:
 
-Além de outros recursos falados nas aulas!
+- Forms
+- Text structuring and formatting
+- Media (images and Google Maps iframe)
+- Tables
+- Consistent navigation menu, header, and footer
 
-## Instruções
-1. Você deve criar um site de uma clínica médica (você escolhe a especialidade)
-2. Este site deve conter o seguinte menu de navegação:
-    - Página Principal
-    - Sobre a clínica
-    - Horário de Atendimento
-    - Contato
-3. Deve, obrigatoriamente, utilizar todas os assuntos abordados nas aulas.
+The goal of the project was to create a functional and aesthetic website, applying good HTML practices and proper content organization.
 
-Abaixo como cada página deve ser criada e estruturada.
+---
 
-### Estrutura das páginas
+## Site Structure
 
-Todas as páginas terão que seguir um padrão pré-definido. Como não aprendemos sobre CSS ainda, utilize o arquivo `template.html` para utilizar como base. Ele segue uma estrutura semelhante a image abaixo.
+The website contains the following pages:
 
-![Estrutura](https://i.stack.imgur.com/9jI6f.gif)
+### **1. Home Page**
+- Header image representing the clinic.
+- Brief description about the clinic in the main content.
+- Standard navigation menu and footer.
 
-\* _No template tem algumas cores mas é apenas para melhor visualização. Fique a vontade para alterar da melhor forma._
+### **2. About the Clinic**
+- Different header image.
+- Text about the clinic in the main content.
+- Standard navigation menu and footer.
 
-No **Menu**, ficará localizado o menu de navegação (ah vá!), no **Header** de cada página ficará uma imagem, no **Footer** informações de contato, e o **Content** é o conteúdo de cada página.
-### Página Principal
-1. Deve ter uma imagem no **Header**.
-2. Em **Content** uma breve descrição sobre a clínica.
-3. **Menu** e **Footer** padrões em todas as páginas.
+### **3. Opening Hours**
+- Different header image.
+- Text about the clinic’s services.
+- **Schedule Table:**
 
-### Sobre a clínica
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** um texto falando sobre a clínica.
-3. **Menu** e **Footer** padrões em todas as páginas.
+| Services                | Monday to Friday  | Saturdays       | Holidays       |
+|-------------------------|-----------------|----------------|----------------|
+| Vet Consultations       | 8:00 AM - 6:00 PM | 8:00 AM - 12:00 PM | 8:00 AM - 2:00 PM |
+| Vaccinations            | 8:00 AM - 6:00 PM | 8:00 AM - 12:00 PM | 8:00 AM - 2:00 PM |
+| Diagnostics & Exams     | 8:00 AM - 6:00 PM | 8:00 AM - 12:00 PM | 8:00 AM - 2:00 PM |
+| Surgery & Procedures    | 8:00 AM - 6:00 PM | 8:00 AM - 12:00 PM | 8:00 AM - 2:00 PM |
+| Grooming                | 8:00 AM - 6:00 PM | 8:00 AM - 12:00 PM | Closed         |
+| Emergency Care          | 24 hours         | 24 hours        | 24 hours       |
 
-### Horário de Atendimento
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** um pequeno texto falando sobre os serviços, e uma tabela de preços, onde cada linha é um serviço, com o preço de cada um de acordo com os dias da semana.
+- Standard navigation menu and footer.
 
-|Serviços |Segunda a Sexta | Sábados | Feriados |
-|---|---|---|---|
-|Clínica geral | 08h - 19h  | 08h - 14h | 08h - 14h  |
-|Psicologia | 08h - 19h  | 08h - 14h | 08h - 14h  |
-|Pediatria | 08h - 19h  | 08h - 18h | - |
-|Oftalmologia | 08h - 19h  | 08h - 18h | - |
-|||||
+### **4. Contact**
+- Different header image.
+- Contact information:
+  - Phone numbers (cell and WhatsApp)
+  - Full clinic address
+  - Google Maps iframe showing the location
+- Contact form:
+  - Name (input type="text")
+  - Email (input type="email")
+  - Subject (input type="text")
+  - Message (textarea)
+  - Send and reset buttons
+- Standard navigation menu and footer.
 
-3. **Menu** e **Footer** padrões em todas as páginas.
+---
 
+## Technologies Used
+- HTML5
+- CSS3 (layout, colors, and basic styling)
+- HTML Forms
+- Tables and lists
+- Media (images and Google Maps iframe)
 
-### Contato
-1. Deve ter uma imagem diferente no **Header**.
-2. Em **Content** deve ter:
-    - Os telefones de contato (celular e whatsapp)
-    - Endereço completo da clínica
-    - Um Iframe com o Google Maps apontando o endereço da clínica
-    - Um formulário de contato com:
-        - Nome (type="text")
-        - E-mail (type="email")
-        - Assunto (type="text")
-        - Mensagem (textarea)
-        - Botões de envias e limpar formulário
+---
 
-3. **Menu** e **Footer** padrões em todas as páginas.
+## Challenge Objective
+The challenge aimed to create an **almost complete website**, applying all concepts from the module, maintaining consistency in layout and structure across pages, and integrating all studied elements.
 
-Desafio está lançado! Com tudo que aprendemos no Módulo II é perfeitamente possível criar este site! 
+---
 
-Bora pra cima!
-=======
-# Desafio_Dio_HTML_2
->>>>>>> c90d5d015345d5d3affa20a675e8009946b739ff
+## Base Repository
+[https://github.com/digitalinnovationone/trilha-html-modulo-2](https://github.com/digitalinnovationone/trilha-html-modulo-2)
+
+---
+
+## About the Project
+This project represents a **fictitious veterinary clinic**, called **PetsandVets**, developed for academic purposes. The site is fully functional, but the data is fictional and does not represent a real clinic.
+
+---
+
+**Happy studying!** 🐶🐱
